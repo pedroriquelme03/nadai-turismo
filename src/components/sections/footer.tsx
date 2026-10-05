@@ -12,7 +12,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 py-16 sm:px-10 md:grid-cols-12">
         <div className="md:col-span-5">
           <LogoFull tone="white" />
-          <p className="mt-6 max-w-xs font-serif text-xl leading-snug text-white/85">
+          <p className="mt-6 max-w-xs font-display text-xl leading-snug text-white/85">
             {site.tagline}
           </p>
         </div>

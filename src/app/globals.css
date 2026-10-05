@@ -44,7 +44,7 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --font-sans: var(--font-body);
-  --font-serif: var(--font-display);
+  --font-display: var(--font-brand);
   --font-logo: var(--font-brand);
   --animate-sheet-in: sheet-in 0.3s cubic-bezier(0.22, 1, 0.36, 1);
   --animate-sheet-out: sheet-out 0.2s ease-in;

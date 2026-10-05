@@ -39,7 +39,7 @@ export function Hero() {
         </RevealItem>
         <RevealItem>
           <h1
-            className="max-w-4xl text-balance font-serif font-medium tracking-tight"
+            className="max-w-4xl text-balance font-display font-normal tracking-tight"
             style={{ fontSize: "clamp(2.6rem, 7vw, 5.25rem)", lineHeight: 1 }}
           >
             Sua experiência em Foz começa com a gente.

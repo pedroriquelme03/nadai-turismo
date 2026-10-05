@@ -1,24 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { Figtree, Fraunces, Jost } from "next/font/google";
+import { Jost, Poppins } from "next/font/google";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const body = Figtree({
+const body = Poppins({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
 });
 
-const display = Fraunces({
-  variable: "--font-display",
-  subsets: ["latin"],
-  axes: ["opsz"],
-});
-
-// Geométrica próxima da tipografia da logo, usada só na assinatura.
-const logo = Jost({
+// Geométrica próxima da tipografia da logo: assinatura e títulos de destaque.
+const brand = Jost({
   variable: "--font-brand",
   subsets: ["latin"],
-  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -54,7 +48,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="pt-BR"
-      className={`${body.variable} ${display.variable} ${logo.variable} h-full antialiased`}
+      className={`${body.variable} ${brand.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col font-sans">{children}</body>
     </html>

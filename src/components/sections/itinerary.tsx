@@ -109,7 +109,7 @@ export function Itinerary() {
               </Button>
               <output
                 aria-live="polite"
-                className="min-w-24 text-center font-serif text-4xl font-medium tabular-nums"
+                className="min-w-24 text-center font-display text-4xl font-normal tabular-nums"
               >
                 {days}
                 <span className="ml-2 font-sans text-base font-normal text-muted-foreground">

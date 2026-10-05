@@ -9,7 +9,7 @@ export function Cta() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-4 px-6 sm:px-10 lg:grid-cols-3">
         <div className="flex flex-col gap-6 rounded-3xl bg-terra p-8 text-terra-foreground sm:p-12 lg:col-span-2">
           <h2
-            className="max-w-xl text-balance font-serif font-medium tracking-tight"
+            className="max-w-xl text-balance font-display font-normal tracking-tight"
             style={{ fontSize: "clamp(2rem, 4.2vw, 3.1rem)", lineHeight: 1.06 }}
           >
             Fale com a Nadai e comece a planejar sua viagem.
@@ -33,7 +33,7 @@ export function Cta() {
         <div className="flex flex-col gap-5 rounded-3xl border border-border bg-card p-8">
           <Building2 className="size-6 text-terra" strokeWidth={1.6} />
           <div>
-            <h3 className="font-serif text-2xl font-medium tracking-tight">
+            <h3 className="font-display text-2xl font-normal tracking-tight">
               Agências e empresas
             </h3>
             <p className="mt-2 text-pretty text-sm leading-relaxed text-muted-foreground">

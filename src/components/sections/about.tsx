@@ -55,7 +55,7 @@ export function About() {
               crescer.
             </p>
           </div>
-          <blockquote className="mt-8 border-l-2 border-terra pl-5 font-serif text-xl font-medium leading-snug tracking-tight sm:text-2xl">
+          <blockquote className="mt-8 border-l-2 border-terra pl-5 font-display text-xl font-normal leading-snug tracking-tight sm:text-2xl">
             Raízes no turismo, identidade familiar e muitos destinos pela
             frente.
           </blockquote>

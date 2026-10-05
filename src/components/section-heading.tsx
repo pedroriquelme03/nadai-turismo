@@ -26,7 +26,7 @@ export function SectionHeading({
         {eyebrow}
       </span>
       <h2
-        className="text-balance font-serif font-medium tracking-tight"
+        className="text-balance font-display font-normal tracking-tight"
         style={{ fontSize: "clamp(2rem, 4.2vw, 3.1rem)", lineHeight: 1.06 }}
       >
         {title}

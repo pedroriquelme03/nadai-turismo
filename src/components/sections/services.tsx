@@ -23,7 +23,7 @@ export function Services() {
                   <Icon className="size-5" strokeWidth={1.6} />
                 </div>
                 <div>
-                  <h3 className="font-serif text-2xl font-medium tracking-tight">
+                  <h3 className="font-display text-2xl font-normal tracking-tight">
                     {title}
                   </h3>
                   <p className="mt-2 text-pretty leading-relaxed text-muted-foreground">

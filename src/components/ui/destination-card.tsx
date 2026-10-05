@@ -61,7 +61,7 @@ const DestinationCard = React.forwardRef<HTMLDivElement, DestinationCardProps>(
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/80">
               {country}
             </p>
-            <h3 className="mt-2 font-serif text-3xl font-medium tracking-tight sm:text-4xl">
+            <h3 className="mt-2 font-display text-3xl font-normal tracking-tight sm:text-4xl">
               {location}
             </h3>
             <p className="mt-2 max-w-sm text-sm text-white/85 sm:text-base">

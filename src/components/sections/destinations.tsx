@@ -55,7 +55,7 @@ export function Destinations() {
                   <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
                     {country}
                   </p>
-                  <h3 className="mt-1.5 font-serif text-xl font-medium tracking-tight">
+                  <h3 className="mt-1.5 font-display text-xl font-normal tracking-tight">
                     {title}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
