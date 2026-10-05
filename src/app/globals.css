@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  /* Mata, terra vermelha e névoa das quedas: a paleta vem da paisagem de Foz. */
+  --background: #f7f3ea;
+  --foreground: #14261f;
+  --card: #fffdf8;
+  --card-foreground: #14261f;
+  --primary: #1b4636;
+  --primary-foreground: #f7f3ea;
+  --secondary: #ebe4d3;
+  --secondary-foreground: #14261f;
+  --muted: #efe9da;
+  --muted-foreground: #56665e;
+  --accent: #ebe4d3;
+  --accent-foreground: #14261f;
+  --terra: #b4471f;
+  --terra-foreground: #fffaf3;
+  --mist: #c5ddd6;
+  --forest: #102a20;
+  --border: #ddd5c2;
+  --input: #cfc6b0;
+  --ring: #1b4636;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-terra: var(--terra);
+  --color-terra-foreground: var(--terra-foreground);
+  --color-mist: var(--mist);
+  --color-forest: var(--forest);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
+  --font-logo: var(--font-brand);
+  --animate-sheet-in: sheet-in 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-sheet-out: sheet-out 0.2s ease-in;
+  --animate-fade-in: fade-in 0.2s ease-out;
+  --animate-fade-out: fade-out 0.2s ease-in;
+}
+
+@keyframes sheet-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes sheet-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--terra);
+  color: var(--terra-foreground);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
